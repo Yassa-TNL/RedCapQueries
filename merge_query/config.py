@@ -24,11 +24,10 @@ API_URL = 'http://myapi.uci.edu'
 # Each token belongs to a redcap user and a redcap project
 # In order to use this script, you must put in YOUR token and ONLY YOUR TOKEN
 # You can request your token from Dan or Myra
-'''
 TOKENS = {
 	'master'        : 'ABCD1234ABCD1234ABCD1234ABCD1234',
 	'dep_ro1_test'  : 'ABCD1234ABCD1234ABCD1234ABCD1234',
 	'survey'        : 'ABCD1234ABCD1234ABCD1234ABCD1234',
 	'adrc_project_1': 'ABCD1234ABCD1234ABCD1234ABCD1234',
 	'nia_ro1'       : 'ABCD1234ABCD1234ABCD1234ABCD1234'
-}'''
+}
