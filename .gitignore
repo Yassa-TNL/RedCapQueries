@@ -1,0 +1,5 @@
+*.pyc
+*.backup
+*.swp
+*.csv
+output
