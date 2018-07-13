@@ -25,7 +25,7 @@ You can specify which file you want to save by adding an additional argument:
 python3 merge.py my_results.csv 
 ```
 If run correctly, you should see output in your terminal like this:
-![alt text](https://github.com/Yassalab/RedCapQueries/raw/master/src/images/merge_example.png "Merge Query")
+!["Merge Query"](https://raw.githubusercontent.com/Yassalab/RedCapQueries/master/images/merge_example.png)
 
 Example csv file:
 
