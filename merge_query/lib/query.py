@@ -8,7 +8,7 @@ import urllib
 
 
 
-def query_redcap(values: dict) -> json:
+def query_redcap(values: dict, formatJson = True) -> json:
 	'''
 	A simple function meant to implement the HTTP query to redcap
 	
@@ -41,9 +41,9 @@ def query_redcap(values: dict) -> json:
 		sys.exit()
 	the_page = response.read()
 	the_page = the_page.decode('utf-8')
-	j = json.loads(the_page)
-
-	return j
+	if formatJson:
+		the_page = json.loads(the_page)
+	return the_page
 
 
 def query_records(project_name: str) -> json:
